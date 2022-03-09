@@ -1,6 +1,7 @@
 # Student Become Decathlon Master in Retinal Vessel Segmentation via Dual-teacher Multi-target Domain Adaptation
 
 Pytorch implementation for our multi-target domain adaptation method with application to retinal vessel segmentation. We use style transfer, style augmentation and dual-teacher knowledge distillation to train a domain-generic student on multiple domains.
+![Network](https://github.com/lkpengcs/RVms/blob/main/figs/1.png)
 
 ## Paper
 
@@ -9,6 +10,8 @@ Please cite our [paper](https://arxiv.org/abs/2203.03631) if you find the code o
 ## Dataset
 
 You can download our dataset **mmRV** via this [link](https://drive.google.com/drive/folders/1QxGKT9t38SWApXa_webQpC1udRzW23G1?usp=sharing).
+
+![Results](https://github.com/lkpengcs/RVms/blob/main/figs/2.png)
 
 The detailed information is listed in the following table.
 
