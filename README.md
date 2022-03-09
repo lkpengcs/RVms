@@ -4,6 +4,8 @@ Pytorch implementation for our multi-target domain adaptation method with applic
 
 ![Network](https://github.com/lkpengcs/RVms/blob/main/figs/1.png)
 
+![Module](https://github.com/lkpengcs/RVms/blob/main/figs/3.png)
+
 ## Paper
 
 Please cite our [paper](https://arxiv.org/abs/2203.03631) if you find the code or dataset useful for your research.
