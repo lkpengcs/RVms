@@ -35,5 +35,4 @@ The detailed information is listed in the following table.
 - Pytorch 1.8+
 - tensorboardX
 
-*The code is coming soon!*
 
