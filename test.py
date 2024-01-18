@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import os
 import segmentation_models_pytorch as smp
-from utils import create_test_arg_parser, kill_border, process_test_args, AverageMeter, tensor2im, write_csv, recompone_overlap
+from utils import create_test_arg_parser, process_test_args, AverageMeter, tensor2im, write_csv
 from datasets import CustomDataSet, CustomTestDatasetWithPatch
 from augmentation import val_aug
 from models.student import Student
