@@ -191,8 +191,9 @@ def eval(model, device, test_loader):
     dices = AverageMeter("Dice", ".4f")
     with torch.no_grad():
         for data, target in test_loader:
+            liot_data = data[:,2:,:,:]
             o_data = data[:,0,:,:].unsqueeze(1)
-            data = o_data
+            data = torch.cat((o_data, liot_data), 1)
             data, target = data.to(device), target.to(device)
             output,__ = model(data)
             pred = torch.round(output)
